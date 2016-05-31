@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D5F0FF1CFD7624004ED29A /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D5F0FE1CFD7624004ED29A /* HttpTool.m */; };
 		25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3C1CF7EDE3004C1FF1 /* main.m */; };
 		25EA6F401CF7EDE3004C1FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3F1CF7EDE3004C1FF1 /* AppDelegate.m */; };
 		25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F421CF7EDE3004C1FF1 /* ViewController.m */; };
@@ -37,6 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0F22EEEB96FF85D4D7D9F3F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		25D5F0FD1CFD7624004ED29A /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		25D5F0FE1CFD7624004ED29A /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		25EA6F381CF7EDE3004C1FF1 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA6F3C1CF7EDE3004C1FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25EA6F3E1CF7EDE3004C1FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -120,10 +124,11 @@
 				25EA6F3F1CF7EDE3004C1FF1 /* AppDelegate.m */,
 				25EA6F411CF7EDE3004C1FF1 /* ViewController.h */,
 				25EA6F421CF7EDE3004C1FF1 /* ViewController.m */,
+				25D5F0FD1CFD7624004ED29A /* HttpTool.h */,
+				25D5F0FE1CFD7624004ED29A /* HttpTool.m */,
 				25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */,
 				25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */,
 				25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */,
-				25EA6F4C1CF7EDE3004C1FF1 /* Info.plist */,
 				25EA6F3B1CF7EDE3004C1FF1 /* Supporting Files */,
 			);
 			path = MyApp;
@@ -132,7 +137,9 @@
 		25EA6F3B1CF7EDE3004C1FF1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25EA6F4C1CF7EDE3004C1FF1 /* Info.plist */,
 				25EA6F3C1CF7EDE3004C1FF1 /* main.m */,
+				25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -348,6 +355,7 @@
 				25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */,
 				25EA6F401CF7EDE3004C1FF1 /* AppDelegate.m in Sources */,
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
+				25D5F0FF1CFD7624004ED29A /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,6 +497,7 @@
 			baseConfigurationReference = D4D2AED2A7273C537843CB3B /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/PrefixHeader.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitzsoft.MyApp;
@@ -501,6 +510,7 @@
 			baseConfigurationReference = 0F22EEEB96FF85D4D7D9F3F7 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/MyApp/PrefixHeader.pch";
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bitzsoft.MyApp;

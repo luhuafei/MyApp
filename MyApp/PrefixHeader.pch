@@ -1,0 +1,21 @@
+//
+//  PrefixHeader.pch
+//  MyApp
+//
+//  Created by DengTianran on 16/5/31.
+//  Copyright © 2016年 DengTianran. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
+/** 网络请求*/
+#define  HttpManager [HttpTool shareInstance]
+
+#endif /* PrefixHeader_pch */
