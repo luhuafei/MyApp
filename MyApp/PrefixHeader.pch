@@ -17,5 +17,12 @@
 
 /** 网络请求*/
 #define  HttpManager [HttpTool shareInstance]
+#import "HttpTool.h"
+
+//扩展
+#import "UIView+Extension.h"
+
+
+
 
 #endif /* PrefixHeader_pch */

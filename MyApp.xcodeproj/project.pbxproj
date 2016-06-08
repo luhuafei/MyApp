@@ -8,11 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBAF71D07FACE00057295 /* AppDelegate.m */; };
-		25BEBB001D07FACE00057295 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBAFB1D07FACE00057295 /* HttpTool.m */; };
+		25BEBB031D07FB7600057295 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB021D07FB7600057295 /* NavigationController.m */; };
+		25BEBB051D07FBE000057295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB041D07FBE000057295 /* Assets.xcassets */; };
+		25BEBB0F1D07FED000057295 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB0B1D07FED000057295 /* UIView+Extension.m */; };
+		25BEBB101D07FED000057295 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB0E1D07FED000057295 /* HttpTool.m */; };
+		25BEBB131D07FF9A00057295 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB121D07FF9A00057295 /* TabBarController.m */; };
+		25BEBB251D08019600057295 /* EssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB221D08019600057295 /* EssenceViewController.m */; };
+		25BEBB391D08022700057295 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB381D08022700057295 /* MeViewController.m */; };
+		25BEBB3C1D08025A00057295 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB3B1D08025A00057295 /* NewViewController.m */; };
+		25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB431D08036500057295 /* FriendTrendViewController.m */; };
+		25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB441D08036500057295 /* FriendTrendViewController.xib */; };
+		25BEBB491D08084B00057295 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB481D08084B00057295 /* TopicViewController.m */; };
 		25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3C1CF7EDE3004C1FF1 /* main.m */; };
-		25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F421CF7EDE3004C1FF1 /* ViewController.m */; };
 		25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */; };
-		25EA6F481CF7EDE3004C1FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */; };
 		25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */; };
 		25EA6F561CF7EDE3004C1FF1 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F551CF7EDE3004C1FF1 /* MyAppTests.m */; };
 		25EA6F611CF7EDE3004C1FF1 /* MyAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F601CF7EDE3004C1FF1 /* MyAppUITests.m */; };
@@ -40,15 +48,30 @@
 		0F22EEEB96FF85D4D7D9F3F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		25BEBAF61D07FACE00057295 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25BEBAF71D07FACE00057295 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		25BEBAFA1D07FACE00057295 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
-		25BEBAFB1D07FACE00057295 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		25BEBB011D07FB7600057295 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		25BEBB021D07FB7600057295 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		25BEBB041D07FBE000057295 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		25BEBB0A1D07FED000057295 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		25BEBB0B1D07FED000057295 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		25BEBB0D1D07FED000057295 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		25BEBB0E1D07FED000057295 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
+		25BEBB111D07FF9A00057295 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		25BEBB121D07FF9A00057295 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		25BEBB211D08019600057295 /* EssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EssenceViewController.h; sourceTree = "<group>"; };
+		25BEBB221D08019600057295 /* EssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EssenceViewController.m; sourceTree = "<group>"; };
+		25BEBB371D08022700057295 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		25BEBB381D08022700057295 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		25BEBB3A1D08025A00057295 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		25BEBB3B1D08025A00057295 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		25BEBB421D08036500057295 /* FriendTrendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendTrendViewController.h; sourceTree = "<group>"; };
+		25BEBB431D08036500057295 /* FriendTrendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendTrendViewController.m; sourceTree = "<group>"; };
+		25BEBB441D08036500057295 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
+		25BEBB471D08084B00057295 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
+		25BEBB481D08084B00057295 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
 		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		25EA6F381CF7EDE3004C1FF1 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA6F3C1CF7EDE3004C1FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25EA6F411CF7EDE3004C1FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		25EA6F421CF7EDE3004C1FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25EA6F451CF7EDE3004C1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		25EA6F4A1CF7EDE3004C1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		25EA6F4C1CF7EDE3004C1FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		25EA6F511CF7EDE3004C1FF1 /* MyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +130,10 @@
 		25BEBAF81D07FACE00057295 /* General */ = {
 			isa = PBXGroup;
 			children = (
+				25BEBB011D07FB7600057295 /* NavigationController.h */,
+				25BEBB021D07FB7600057295 /* NavigationController.m */,
+				25BEBB111D07FF9A00057295 /* TabBarController.h */,
+				25BEBB121D07FF9A00057295 /* TabBarController.m */,
 			);
 			path = General;
 			sourceTree = "<group>";
@@ -114,8 +141,8 @@
 		25BEBAF91D07FACE00057295 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				25BEBAFA1D07FACE00057295 /* HttpTool.h */,
-				25BEBAFB1D07FACE00057295 /* HttpTool.m */,
+				25BEBB091D07FED000057295 /* Extension */,
+				25BEBB0C1D07FED000057295 /* Tools */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -137,8 +164,165 @@
 		25BEBAFE1D07FACE00057295 /* Sections */ = {
 			isa = PBXGroup;
 			children = (
+				25BEBB141D08009C00057295 /* Essences */,
+				25BEBB151D08009C00057295 /* Focus */,
+				25BEBB161D08009C00057295 /* Me */,
+				25BEBB171D08009C00057295 /* New */,
 			);
 			path = Sections;
+			sourceTree = "<group>";
+		};
+		25BEBB091D07FED000057295 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB0A1D07FED000057295 /* UIView+Extension.h */,
+				25BEBB0B1D07FED000057295 /* UIView+Extension.m */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		25BEBB0C1D07FED000057295 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB0D1D07FED000057295 /* HttpTool.h */,
+				25BEBB0E1D07FED000057295 /* HttpTool.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		25BEBB141D08009C00057295 /* Essences */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB201D08019600057295 /* Controllers */,
+				25BEBB231D08019600057295 /* Models */,
+				25BEBB241D08019600057295 /* Views */,
+			);
+			path = Essences;
+			sourceTree = "<group>";
+		};
+		25BEBB151D08009C00057295 /* Focus */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB261D0801A600057295 /* Controllers */,
+				25BEBB2C1D0801A600057295 /* Models */,
+				25BEBB2D1D0801A600057295 /* Views */,
+			);
+			path = Focus;
+			sourceTree = "<group>";
+		};
+		25BEBB161D08009C00057295 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB311D0801F200057295 /* Controllers */,
+				25BEBB321D0801F200057295 /* Models */,
+				25BEBB331D0801F200057295 /* Views */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		25BEBB171D08009C00057295 /* New */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB341D0801FE00057295 /* Controllers */,
+				25BEBB351D0801FE00057295 /* Models */,
+				25BEBB361D0801FE00057295 /* Views */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		25BEBB201D08019600057295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB211D08019600057295 /* EssenceViewController.h */,
+				25BEBB221D08019600057295 /* EssenceViewController.m */,
+				25BEBB471D08084B00057295 /* TopicViewController.h */,
+				25BEBB481D08084B00057295 /* TopicViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25BEBB231D08019600057295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25BEBB241D08019600057295 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25BEBB261D0801A600057295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB421D08036500057295 /* FriendTrendViewController.h */,
+				25BEBB431D08036500057295 /* FriendTrendViewController.m */,
+				25BEBB441D08036500057295 /* FriendTrendViewController.xib */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25BEBB2C1D0801A600057295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25BEBB2D1D0801A600057295 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25BEBB311D0801F200057295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB371D08022700057295 /* MeViewController.h */,
+				25BEBB381D08022700057295 /* MeViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25BEBB321D0801F200057295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25BEBB331D0801F200057295 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		25BEBB341D0801FE00057295 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBB3A1D08025A00057295 /* NewViewController.h */,
+				25BEBB3B1D08025A00057295 /* NewViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		25BEBB351D0801FE00057295 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		25BEBB361D0801FE00057295 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		25EA6F2F1CF7EDE3004C1FF1 = {
@@ -167,15 +351,13 @@
 			isa = PBXGroup;
 			children = (
 				25BEBAF51D07FACE00057295 /* AppDelegate */,
+				25BEBAFE1D07FACE00057295 /* Sections */,
 				25BEBAF81D07FACE00057295 /* General */,
 				25BEBAF91D07FACE00057295 /* Helpers */,
 				25BEBAFC1D07FACE00057295 /* Marco */,
 				25BEBAFD1D07FACE00057295 /* Resources */,
-				25BEBAFE1D07FACE00057295 /* Sections */,
-				25EA6F411CF7EDE3004C1FF1 /* ViewController.h */,
-				25EA6F421CF7EDE3004C1FF1 /* ViewController.m */,
+				25BEBB041D07FBE000057295 /* Assets.xcassets */,
 				25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */,
-				25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */,
 				25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */,
 				25EA6F3B1CF7EDE3004C1FF1 /* Supporting Files */,
 			);
@@ -326,7 +508,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */,
-				25EA6F481CF7EDE3004C1FF1 /* Assets.xcassets in Resources */,
+				25BEBB051D07FBE000057295 /* Assets.xcassets in Resources */,
+				25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */,
 				25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -400,10 +583,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */,
+				25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */,
+				25BEBB491D08084B00057295 /* TopicViewController.m in Sources */,
+				25BEBB131D07FF9A00057295 /* TabBarController.m in Sources */,
+				25BEBB0F1D07FED000057295 /* UIView+Extension.m in Sources */,
+				25BEBB391D08022700057295 /* MeViewController.m in Sources */,
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
+				25BEBB3C1D08025A00057295 /* NewViewController.m in Sources */,
+				25BEBB031D07FB7600057295 /* NavigationController.m in Sources */,
 				25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */,
-				25BEBB001D07FACE00057295 /* HttpTool.m in Sources */,
+				25BEBB101D07FED000057295 /* HttpTool.m in Sources */,
+				25BEBB251D08019600057295 /* EssenceViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
