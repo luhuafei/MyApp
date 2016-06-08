@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		25D5F0FF1CFD7624004ED29A /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D5F0FE1CFD7624004ED29A /* HttpTool.m */; };
+		25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBAF71D07FACE00057295 /* AppDelegate.m */; };
+		25BEBB001D07FACE00057295 /* HttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBAFB1D07FACE00057295 /* HttpTool.m */; };
 		25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3C1CF7EDE3004C1FF1 /* main.m */; };
-		25EA6F401CF7EDE3004C1FF1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3F1CF7EDE3004C1FF1 /* AppDelegate.m */; };
 		25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F421CF7EDE3004C1FF1 /* ViewController.m */; };
 		25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */; };
 		25EA6F481CF7EDE3004C1FF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */; };
@@ -38,13 +38,13 @@
 
 /* Begin PBXFileReference section */
 		0F22EEEB96FF85D4D7D9F3F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		25BEBAF61D07FACE00057295 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		25BEBAF71D07FACE00057295 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		25BEBAFA1D07FACE00057295 /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
+		25BEBAFB1D07FACE00057295 /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		25D5F0FD1CFD7624004ED29A /* HttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpTool.h; sourceTree = "<group>"; };
-		25D5F0FE1CFD7624004ED29A /* HttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpTool.m; sourceTree = "<group>"; };
 		25EA6F381CF7EDE3004C1FF1 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA6F3C1CF7EDE3004C1FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		25EA6F3E1CF7EDE3004C1FF1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		25EA6F3F1CF7EDE3004C1FF1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25EA6F411CF7EDE3004C1FF1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25EA6F421CF7EDE3004C1FF1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		25EA6F451CF7EDE3004C1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +95,52 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		25BEBAF51D07FACE00057295 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBAF61D07FACE00057295 /* AppDelegate.h */,
+				25BEBAF71D07FACE00057295 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		25BEBAF81D07FACE00057295 /* General */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		25BEBAF91D07FACE00057295 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				25BEBAFA1D07FACE00057295 /* HttpTool.h */,
+				25BEBAFB1D07FACE00057295 /* HttpTool.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		25BEBAFC1D07FACE00057295 /* Marco */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Marco;
+			sourceTree = "<group>";
+		};
+		25BEBAFD1D07FACE00057295 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		25BEBAFE1D07FACE00057295 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
 		25EA6F2F1CF7EDE3004C1FF1 = {
 			isa = PBXGroup;
 			children = (
@@ -120,12 +166,14 @@
 		25EA6F3A1CF7EDE3004C1FF1 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				25EA6F3E1CF7EDE3004C1FF1 /* AppDelegate.h */,
-				25EA6F3F1CF7EDE3004C1FF1 /* AppDelegate.m */,
+				25BEBAF51D07FACE00057295 /* AppDelegate */,
+				25BEBAF81D07FACE00057295 /* General */,
+				25BEBAF91D07FACE00057295 /* Helpers */,
+				25BEBAFC1D07FACE00057295 /* Marco */,
+				25BEBAFD1D07FACE00057295 /* Resources */,
+				25BEBAFE1D07FACE00057295 /* Sections */,
 				25EA6F411CF7EDE3004C1FF1 /* ViewController.h */,
 				25EA6F421CF7EDE3004C1FF1 /* ViewController.m */,
-				25D5F0FD1CFD7624004ED29A /* HttpTool.h */,
-				25D5F0FE1CFD7624004ED29A /* HttpTool.m */,
 				25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */,
 				25EA6F471CF7EDE3004C1FF1 /* Assets.xcassets */,
 				25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */,
@@ -353,9 +401,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EA6F431CF7EDE3004C1FF1 /* ViewController.m in Sources */,
-				25EA6F401CF7EDE3004C1FF1 /* AppDelegate.m in Sources */,
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
-				25D5F0FF1CFD7624004ED29A /* HttpTool.m in Sources */,
+				25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */,
+				25BEBB001D07FACE00057295 /* HttpTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
