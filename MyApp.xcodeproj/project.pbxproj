@@ -19,6 +19,7 @@
 		25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB431D08036500057295 /* FriendTrendViewController.m */; };
 		25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB441D08036500057295 /* FriendTrendViewController.xib */; };
 		25BEBB491D08084B00057295 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB481D08084B00057295 /* TopicViewController.m */; };
+		25DA3ED71D1B7DD20066A79E /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3ED61D1B7DD20066A79E /* AlertTool.m */; };
 		25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F3C1CF7EDE3004C1FF1 /* main.m */; };
 		25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F441CF7EDE3004C1FF1 /* Main.storyboard */; };
 		25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */; };
@@ -69,6 +70,8 @@
 		25BEBB471D08084B00057295 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
 		25BEBB481D08084B00057295 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
 		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		25DA3ED51D1B7DD20066A79E /* AlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTool.h; sourceTree = "<group>"; };
+		25DA3ED61D1B7DD20066A79E /* AlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTool.m; sourceTree = "<group>"; };
 		25EA6F381CF7EDE3004C1FF1 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA6F3C1CF7EDE3004C1FF1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25EA6F451CF7EDE3004C1FF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -186,6 +189,8 @@
 			children = (
 				25BEBB0D1D07FED000057295 /* HttpTool.h */,
 				25BEBB0E1D07FED000057295 /* HttpTool.m */,
+				25DA3ED51D1B7DD20066A79E /* AlertTool.h */,
+				25DA3ED61D1B7DD20066A79E /* AlertTool.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -583,6 +588,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25DA3ED71D1B7DD20066A79E /* AlertTool.m in Sources */,
 				25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */,
 				25BEBB491D08084B00057295 /* TopicViewController.m in Sources */,
 				25BEBB131D07FF9A00057295 /* TabBarController.m in Sources */,
