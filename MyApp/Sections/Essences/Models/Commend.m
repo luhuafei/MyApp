@@ -1,13 +1,18 @@
 //
-//  Commend.m
-//  百思不得姐
+//  Commend.h
+//  MyApp
 //
-//  Created by 施永辉 on 16/5/6.
-//  Copyright © 2016年 mac. All rights reserved.
+//  Created by DengTianran on 16/5/27.
+//  Copyright © 2016年 DengTianran. All rights reserved.
 //
 
 #import "Commend.h"
 #import <MJExtension.h>
+
+@interface Commend ()
+
+@end
+
 @implementation Commend
 +(NSDictionary *)mj_replacedKeyFromPropertyName
 {
@@ -15,4 +20,8 @@
              @"ID":@"id",
              };
 }
+
+
+
+
 @end

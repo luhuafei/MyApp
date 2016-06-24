@@ -36,7 +36,13 @@ static NSString *const BaseUrl = @"https://api.budejie.com/api/api_open.php";
     return nil;
 }
 #pragma mark -load lazy
-
+- (NSMutableArray *)topics
+{
+    if (!_topics) {
+        _topics = [NSMutableArray array];
+    }
+    return _topics;
+}
 
 #pragma mark - life cycle
 - (void)viewDidLoad
@@ -171,6 +177,7 @@ static NSString *const BaseUrl = @"https://api.budejie.com/api/api_open.php";
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    return 230;
+    WordModel *topics = self.topics[indexPath.row];
+    return topics.cellHeight;
 }
 @end

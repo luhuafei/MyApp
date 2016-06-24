@@ -80,7 +80,7 @@
                              @"WordTableViewController"];
     for (NSString *controllerName in controllers)
     {
-        UIViewController *VC = [[NSClassFromString(controllerName) alloc] init];
+        UITableViewController *VC = [[NSClassFromString(controllerName) alloc] init];
         [self addChildViewController:VC];
     }
     
@@ -89,7 +89,7 @@
 - (void)setupTitlesView
 {
     UIView *titlesView = [[UIView alloc] init];
-    titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.7];
+    titlesView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:0.5];
     titlesView.width = self.view.width;
     titlesView.height = TitlesViewH;
     titlesView.y = TitlesViewY;
@@ -110,7 +110,9 @@
         button.height = height;
         button.width = width;
         button.x = i * width;
+        
         [button setTitle:titles[i] forState:UIControlStateNormal];
+        [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
         [button setTitleColor:[UIColor redColor] forState:UIControlStateDisabled];
         button.titleLabel.font = [UIFont systemFontOfSize:14];
         [button addTarget:self action:@selector(tilteClick:) forControlEvents:UIControlEventTouchUpInside];
@@ -142,7 +144,6 @@
     [self.view insertSubview:contentView atIndex:0];
     contentView.contentSize = CGSizeMake(contentView.width * self.childViewControllers.count, 0);
     self.contentView = contentView;
-    
     //添加第一个控制器
     [self scrollViewDidEndScrollingAnimation:contentView];
     

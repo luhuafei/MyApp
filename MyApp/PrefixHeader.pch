@@ -15,6 +15,15 @@
 #   define DLog(...)
 #endif
 
+#ifdef DEBUG
+#define DLogPoint(point)    DLog(@"%s = { x:%.4f, y:%.4f }", #point, point.x, point.y)
+#define DLogSize(size)      DLog(@"%s = { w:%.4f, h:%.4f }", #size, size.width, size.height)
+#define DLogRect(rect)      DLog(@"%s = { x:%.4f, y:%.4f, w:%.4f, h:%.4f }", #rect, rect.origin.x, rect.origin.y, rect.size.width, rect.size.height)
+#endif
+
+
+// 检查某个字符串是否为空, 或者处理后台返回的数据,
+#define checkNull(__X__)        (__X__) == [NSNull null] || (__X__) == nil ? @"" : [NSString stringWithFormat:@"%@", (__X__)]
 
 
 /** 网络请求*/

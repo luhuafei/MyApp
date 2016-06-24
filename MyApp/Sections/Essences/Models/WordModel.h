@@ -1,11 +1,10 @@
 //
-//  WordModel.h
-//  百思不得姐
+// WordModel.h
+//  MyApp
 //
-//  Created by 施永辉 on 16/4/28.
-//  Copyright © 2016年 mac. All rights reserved.
+//  Created by DengTianran on 16/5/27.
+//  Copyright © 2016年 DengTianran. All rights reserved.
 //
-
 #import <UIKit/UIKit.h>
 @class Commend;
 @interface WordModel : NSObject
@@ -74,4 +73,9 @@
 //状态
 //@property (nonatomic,copy)NSString * qzone_uid;
 
+@property (assign, nonatomic)NSInteger count;
+
+@property (copy, nonatomic)NSString *commend;
+
+@property (copy, nonatomic)NSArray *commentArray;
 @end

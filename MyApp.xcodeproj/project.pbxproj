@@ -27,8 +27,6 @@
 		25DA3EEC1D1BBEFD0066A79E /* PictureTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EEB1D1BBEFD0066A79E /* PictureTableViewController.m */; };
 		25DA3EEF1D1BBF0B0066A79E /* WordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EEE1D1BBF0B0066A79E /* WordTableViewController.m */; };
 		25DA3EF21D1BC1C60066A79E /* Const.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EF11D1BC1C60066A79E /* Const.m */; };
-		25DA3EF61D1BCD110066A79E /* TopicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EF41D1BCD110066A79E /* TopicsCell.m */; };
-		25DA3EF71D1BCD110066A79E /* TopicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25DA3EF51D1BCD110066A79E /* TopicsCell.xib */; };
 		25DA3EFA1D1BCE310066A79E /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EF91D1BCE310066A79E /* WordModel.m */; };
 		25DA3EFD1D1BDB120066A79E /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EFC1D1BDB120066A79E /* NSDate+Extension.m */; };
 		25DA3F021D1BDB7A0066A79E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EFF1D1BDB7A0066A79E /* User.m */; };
@@ -38,6 +36,14 @@
 		25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25EA6F491CF7EDE3004C1FF1 /* LaunchScreen.storyboard */; };
 		25EA6F561CF7EDE3004C1FF1 /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F551CF7EDE3004C1FF1 /* MyAppTests.m */; };
 		25EA6F611CF7EDE3004C1FF1 /* MyAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EA6F601CF7EDE3004C1FF1 /* MyAppUITests.m */; };
+		25EB510D1D1D0C4500E328FF /* TopicsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB510A1D1D0C4500E328FF /* TopicsCell.m */; };
+		25EB510E1D1D0C4500E328FF /* TopicsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB510B1D1D0C4500E328FF /* TopicsCell.xib */; };
+		25EB51181D1D0C5A00E328FF /* PicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB51101D1D0C5A00E328FF /* PicView.m */; };
+		25EB51191D1D0C5A00E328FF /* PicView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB51111D1D0C5A00E328FF /* PicView.xib */; };
+		25EB511A1D1D0C5A00E328FF /* TopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB51131D1D0C5A00E328FF /* TopicVoiceView.m */; };
+		25EB511B1D1D0C5A00E328FF /* TopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB51141D1D0C5A00E328FF /* TopicVoiceView.xib */; };
+		25EB511C1D1D0C5A00E328FF /* TopicVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB51161D1D0C5A00E328FF /* TopicVideo.m */; };
+		25EB511D1D1D0C5A00E328FF /* TopicVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB51171D1D0C5A00E328FF /* TopicVideo.xib */; };
 		55F202208DF95D759486640A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93A56B374D4B9541B3D215 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -99,9 +105,6 @@
 		25DA3EEE1D1BBF0B0066A79E /* WordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordTableViewController.m; sourceTree = "<group>"; };
 		25DA3EF01D1BC1C60066A79E /* Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Const.h; sourceTree = "<group>"; };
 		25DA3EF11D1BC1C60066A79E /* Const.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Const.m; sourceTree = "<group>"; };
-		25DA3EF31D1BCD110066A79E /* TopicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsCell.h; sourceTree = "<group>"; };
-		25DA3EF41D1BCD110066A79E /* TopicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsCell.m; sourceTree = "<group>"; };
-		25DA3EF51D1BCD110066A79E /* TopicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsCell.xib; sourceTree = "<group>"; };
 		25DA3EF81D1BCE310066A79E /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
 		25DA3EF91D1BCE310066A79E /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
 		25DA3EFB1D1BDB120066A79E /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
@@ -121,6 +124,18 @@
 		25EA6F5C1CF7EDE3004C1FF1 /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25EA6F601CF7EDE3004C1FF1 /* MyAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppUITests.m; sourceTree = "<group>"; };
 		25EA6F621CF7EDE3004C1FF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25EB51091D1D0C4500E328FF /* TopicsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicsCell.h; sourceTree = "<group>"; };
+		25EB510A1D1D0C4500E328FF /* TopicsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicsCell.m; sourceTree = "<group>"; };
+		25EB510B1D1D0C4500E328FF /* TopicsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicsCell.xib; sourceTree = "<group>"; };
+		25EB510F1D1D0C5A00E328FF /* PicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PicView.h; sourceTree = "<group>"; };
+		25EB51101D1D0C5A00E328FF /* PicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PicView.m; sourceTree = "<group>"; };
+		25EB51111D1D0C5A00E328FF /* PicView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PicView.xib; sourceTree = "<group>"; };
+		25EB51121D1D0C5A00E328FF /* TopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicVoiceView.h; sourceTree = "<group>"; };
+		25EB51131D1D0C5A00E328FF /* TopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicVoiceView.m; sourceTree = "<group>"; };
+		25EB51141D1D0C5A00E328FF /* TopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVoiceView.xib; sourceTree = "<group>"; };
+		25EB51151D1D0C5A00E328FF /* TopicVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicVideo.h; sourceTree = "<group>"; };
+		25EB51161D1D0C5A00E328FF /* TopicVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicVideo.m; sourceTree = "<group>"; };
+		25EB51171D1D0C5A00E328FF /* TopicVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVideo.xib; sourceTree = "<group>"; };
 		9F93A56B374D4B9541B3D215 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D2AED2A7273C537843CB3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -316,9 +331,8 @@
 		25BEBB241D08019600057295 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				25DA3EF31D1BCD110066A79E /* TopicsCell.h */,
-				25DA3EF41D1BCD110066A79E /* TopicsCell.m */,
-				25DA3EF51D1BCD110066A79E /* TopicsCell.xib */,
+				25EB51081D1D0C4500E328FF /* Cells */,
+				25EB510C1D1D0C4500E328FF /* Views */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -460,6 +474,32 @@
 			path = MyAppUITests;
 			sourceTree = "<group>";
 		};
+		25EB51081D1D0C4500E328FF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				25EB51091D1D0C4500E328FF /* TopicsCell.h */,
+				25EB510A1D1D0C4500E328FF /* TopicsCell.m */,
+				25EB510B1D1D0C4500E328FF /* TopicsCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		25EB510C1D1D0C4500E328FF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				25EB510F1D1D0C5A00E328FF /* PicView.h */,
+				25EB51101D1D0C5A00E328FF /* PicView.m */,
+				25EB51111D1D0C5A00E328FF /* PicView.xib */,
+				25EB51121D1D0C5A00E328FF /* TopicVoiceView.h */,
+				25EB51131D1D0C5A00E328FF /* TopicVoiceView.m */,
+				25EB51141D1D0C5A00E328FF /* TopicVoiceView.xib */,
+				25EB51151D1D0C5A00E328FF /* TopicVideo.h */,
+				25EB51161D1D0C5A00E328FF /* TopicVideo.m */,
+				25EB51171D1D0C5A00E328FF /* TopicVideo.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E0BB7EA772A2257CC92207EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -576,8 +616,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */,
-				25DA3EF71D1BCD110066A79E /* TopicsCell.xib in Resources */,
+				25EB511B1D1D0C5A00E328FF /* TopicVoiceView.xib in Resources */,
+				25EB510E1D1D0C4500E328FF /* TopicsCell.xib in Resources */,
 				25BEBB051D07FBE000057295 /* Assets.xcassets in Resources */,
+				25EB51191D1D0C5A00E328FF /* PicView.xib in Resources */,
+				25EB511D1D1D0C5A00E328FF /* TopicVideo.xib in Resources */,
 				25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */,
 				25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */,
 			);
@@ -661,10 +704,14 @@
 				25BEBB0F1D07FED000057295 /* UIView+Extension.m in Sources */,
 				25DA3F031D1BDB7A0066A79E /* Commend.m in Sources */,
 				25DA3EE91D1BBEEB0066A79E /* SoundTableViewController.m in Sources */,
+				25EB51181D1D0C5A00E328FF /* PicView.m in Sources */,
+				25EB510D1D1D0C4500E328FF /* TopicsCell.m in Sources */,
 				25DA3EF21D1BC1C60066A79E /* Const.m in Sources */,
 				25BEBB391D08022700057295 /* MeViewController.m in Sources */,
 				25DA3EE61D1BBED80066A79E /* VideoTableViewController.m in Sources */,
+				25EB511C1D1D0C5A00E328FF /* TopicVideo.m in Sources */,
 				25DA3EFA1D1BCE310066A79E /* WordModel.m in Sources */,
+				25EB511A1D1D0C5A00E328FF /* TopicVoiceView.m in Sources */,
 				25DA3F021D1BDB7A0066A79E /* User.m in Sources */,
 				25DA3EEF1D1BBF0B0066A79E /* WordTableViewController.m in Sources */,
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
@@ -673,7 +720,6 @@
 				25DA3EE31D1BBEC30066A79E /* AllTableViewController.m in Sources */,
 				25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */,
 				25DA3EDD1D1BBD600066A79E /* UIBarButtonItem+Extension.m in Sources */,
-				25DA3EF61D1BCD110066A79E /* TopicsCell.m in Sources */,
 				25BEBB101D07FED000057295 /* HttpTool.m in Sources */,
 				25BEBB251D08019600057295 /* EssenceViewController.m in Sources */,
 			);

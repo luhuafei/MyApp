@@ -1,9 +1,9 @@
 //
-//  WordModel.m
-//  百思不得姐
+//  WordModel.h
+//  MyApp
 //
-//  Created by 施永辉 on 16/4/28.
-//  Copyright © 2016年 mac. All rights reserved.
+//  Created by DengTianran on 16/5/27.
+//  Copyright © 2016年 DengTianran. All rights reserved.
 //
 
 #import "WordModel.h"
@@ -70,7 +70,7 @@
     if (!_cellHeight) {
     
     //文字的Y值
-    CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width -4 *TopicCellMargin, MAXFLOAT);
+    CGSize maxSize = CGSizeMake([UIScreen mainScreen].bounds.size.width - 4 *TopicCellMargin, MAXFLOAT);
     //    CGFloat textH = [topic.text sizeWithFont:[UIFont systemFontOfSize:14] constrainedToSize:maxSize].height;
         //计算文字高度
     CGFloat textH = [self.text boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:16]} context:nil].size.height;
@@ -113,9 +113,11 @@
              
          }
 //        Commend * cmt = [self.top_cmt firstObject];
-        if (self.top_cmt) {
-            NSString * content = [NSString stringWithFormat:@"%@ : %@",self.top_cmt.user.username,self.top_cmt.content];
-             CGFloat contentH = [content boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]} context:nil].size.height;
+        NSInteger count = arc4random() % 100;
+        self.count = count;
+        if (count % 2) {
+//            NSString * content = [NSString stringWithFormat:@"%@ : %@",self.top_cmt.user.username,self.top_cmt.content];
+             CGFloat contentH = [self.commend boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName : [UIFont systemFontOfSize:13]} context:nil].size.height;
             _cellHeight += TopicCellTopCmtTitleH + TopicCellMargin  + contentH ;
         }
         //底部工具条高度
@@ -124,4 +126,27 @@
     return _cellHeight;
 
 }
+
+
+- (NSString *)commend
+{
+    if (_commend == nil)
+    {
+        NSInteger count = arc4random() % self.commentArray.count;
+        self.commend = self.commentArray[count];
+    }
+    return  _commend;
+    
+}
+
+- (NSArray *)commentArray
+{
+    if (_commentArray == nil)
+    {
+        self.commentArray = @[@"是大大发发发asdfghjyukuigsdhffjkshjdkul有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了", @"奥法弗有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了拉明才;啊苏东坡老婆全武器都欺负欺负欺负哭几天清风过热或突然有距离后", @"撒有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了娇高考;温热突然有脱皮老板vcvcl马兰拉面;老杜v'pqkogjqrglff有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了q'gewjkqgewk", @"扫减肥有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了快赔钱哦高科技和我去过陪我看物流区分开法规和人员同拘役;头突然放大;婆婆以具有和托管费 ;;如同归于好几口", @"哦啊看看有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了书来打牌不麻烦;,ska啪啪啪", @"安分开始的的人防图关于加快了;.干活那有时候我们需要在程序中生成随机数，但是在Objective-c中并没有提供相应的函数，好在C中提供了;发个混迹没看了;合计;'弩机没空了;回家考虑"];
+    }
+    return _commentArray;
+    
+}
+
 @end
