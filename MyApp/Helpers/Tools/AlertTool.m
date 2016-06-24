@@ -10,8 +10,8 @@
 
 #define IAIOS8 ([[[UIDevice currentDevice] systemVersion] floatValue] >= 8.0)
 @interface AlertTool ()
-@property (weak, nonatomic)cancleAction cancelAction;
-@property (weak, nonatomic)confirmAction confirmAction;
+@property (copy, nonatomic)cancleAction cancelAction;
+@property (copy, nonatomic)confirmAction confirmAction;
 @end
 
 static AlertTool *alertTool = nil;
