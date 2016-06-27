@@ -45,4 +45,9 @@
 /** 日期*/
 #import "NSDate+Extension.h"
 
+/** 执行时间*/
+#define TICK   NSDate *startTime = [NSDate date]
+
+#define TOCK   NSLog(@"Time: %f", -[startTime timeIntervalSinceNow])
+
 #endif /* PrefixHeader_pch */
