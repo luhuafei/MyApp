@@ -88,6 +88,7 @@
 		25BEBB441D08036500057295 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
 		25BEBB471D08084B00057295 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
 		25BEBB481D08084B00057295 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		25D0EAC71D24BE570059793C /* Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
 		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		25DA3ED81D1BBBC40066A79E /* AlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTool.h; sourceTree = "<group>"; };
 		25DA3ED91D1BBBC40066A79E /* AlertTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTool.m; sourceTree = "<group>"; };
@@ -206,6 +207,7 @@
 		25BEBAFC1D07FACE00057295 /* Marco */ = {
 			isa = PBXGroup;
 			children = (
+				25D0EAC71D24BE570059793C /* Inline.h */,
 				25DA3EF01D1BC1C60066A79E /* Const.h */,
 				25DA3EF11D1BC1C60066A79E /* Const.m */,
 			);
