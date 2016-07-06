@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25A843B31D2CAABF00374A8D /* UIButton+SSEdgeInsets.m in Sources */ = {isa = PBXBuildFile; fileRef = 25A843B21D2CAABF00374A8D /* UIButton+SSEdgeInsets.m */; };
 		25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBAF71D07FACE00057295 /* AppDelegate.m */; };
 		25BEBB031D07FB7600057295 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB021D07FB7600057295 /* NavigationController.m */; };
 		25BEBB051D07FBE000057295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB041D07FBE000057295 /* Assets.xcassets */; };
@@ -66,6 +67,8 @@
 
 /* Begin PBXFileReference section */
 		0F22EEEB96FF85D4D7D9F3F7 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		25A843B11D2CAABF00374A8D /* UIButton+SSEdgeInsets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+SSEdgeInsets.h"; sourceTree = "<group>"; };
+		25A843B21D2CAABF00374A8D /* UIButton+SSEdgeInsets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+SSEdgeInsets.m"; sourceTree = "<group>"; };
 		25BEBAF61D07FACE00057295 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		25BEBAF71D07FACE00057295 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25BEBB011D07FB7600057295 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
@@ -241,6 +244,8 @@
 				25BEBB0B1D07FED000057295 /* UIView+Extension.m */,
 				25DA3EFB1D1BDB120066A79E /* NSDate+Extension.h */,
 				25DA3EFC1D1BDB120066A79E /* NSDate+Extension.m */,
+				25A843B11D2CAABF00374A8D /* UIButton+SSEdgeInsets.h */,
+				25A843B21D2CAABF00374A8D /* UIButton+SSEdgeInsets.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -713,6 +718,7 @@
 				25DA3EE61D1BBED80066A79E /* VideoTableViewController.m in Sources */,
 				25EB511C1D1D0C5A00E328FF /* TopicVideo.m in Sources */,
 				25DA3EFA1D1BCE310066A79E /* WordModel.m in Sources */,
+				25A843B31D2CAABF00374A8D /* UIButton+SSEdgeInsets.m in Sources */,
 				25EB511A1D1D0C5A00E328FF /* TopicVoiceView.m in Sources */,
 				25DA3F021D1BDB7A0066A79E /* User.m in Sources */,
 				25DA3EEF1D1BBF0B0066A79E /* WordTableViewController.m in Sources */,
