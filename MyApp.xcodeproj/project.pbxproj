@@ -20,6 +20,7 @@
 		25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB431D08036500057295 /* FriendTrendViewController.m */; };
 		25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB441D08036500057295 /* FriendTrendViewController.xib */; };
 		25BEBB491D08084B00057295 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB481D08084B00057295 /* TopicViewController.m */; };
+		25C4AF871D333816008B6608 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AF861D333816008B6608 /* NSString+Extension.m */; };
 		25DA3EDA1D1BBBC40066A79E /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3ED91D1BBBC40066A79E /* AlertTool.m */; };
 		25DA3EDD1D1BBD600066A79E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EDC1D1BBD600066A79E /* UIBarButtonItem+Extension.m */; };
 		25DA3EE31D1BBEC30066A79E /* AllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EE21D1BBEC30066A79E /* AllTableViewController.m */; };
@@ -91,6 +92,8 @@
 		25BEBB441D08036500057295 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
 		25BEBB471D08084B00057295 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
 		25BEBB481D08084B00057295 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		25C4AF851D333816008B6608 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		25C4AF861D333816008B6608 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		25D0EAC71D24BE570059793C /* Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
 		25D5F0F91CFD64C9004ED29A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		25DA3ED81D1BBBC40066A79E /* AlertTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTool.h; sourceTree = "<group>"; };
@@ -246,6 +249,8 @@
 				25DA3EFC1D1BDB120066A79E /* NSDate+Extension.m */,
 				25A843B11D2CAABF00374A8D /* UIButton+SSEdgeInsets.h */,
 				25A843B21D2CAABF00374A8D /* UIButton+SSEdgeInsets.m */,
+				25C4AF851D333816008B6608 /* NSString+Extension.h */,
+				25C4AF861D333816008B6608 /* NSString+Extension.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -712,6 +717,7 @@
 				25DA3F031D1BDB7A0066A79E /* Commend.m in Sources */,
 				25DA3EE91D1BBEEB0066A79E /* SoundTableViewController.m in Sources */,
 				25EB51181D1D0C5A00E328FF /* PicView.m in Sources */,
+				25C4AF871D333816008B6608 /* NSString+Extension.m in Sources */,
 				25EB510D1D1D0C4500E328FF /* TopicsCell.m in Sources */,
 				25DA3EF21D1BC1C60066A79E /* Const.m in Sources */,
 				25BEBB391D08022700057295 /* MeViewController.m in Sources */,
