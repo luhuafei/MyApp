@@ -10,7 +10,7 @@
 #import <UIImageView+WebCache.h>
 #import "WordModel.h"
 #import <DALabeledCircularProgressView.h>
-//#import "ShowPictureViewController.h"
+#import "ShowPictureViewController.h"
 @interface PicView ()
 //图片
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
@@ -88,8 +88,9 @@
 }
 - (void)tapAction
 {
-//    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
-//    showPic.model = self.topic;
-//    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
+    NSLog(@"我是 PicView");
+    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
+    showPic.model = self.topic;
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
 }
 @end

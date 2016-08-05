@@ -23,7 +23,6 @@
                     </imageView>
                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KJ4-pm-6vM">
                         <rect key="frame" x="319" y="10" width="19" height="22"/>
-                        <color key="backgroundColor" red="1" green="0.42650737777633763" blue="0.54160955096700381" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="22" id="No4-Tj-DeW"/>
                             <constraint firstAttribute="width" constant="19" id="XW4-Fg-N5l"/>
@@ -32,7 +31,6 @@
                     </button>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lcF-KR-Ich">
                         <rect key="frame" x="65" y="10" width="50" height="25"/>
-                        <color key="backgroundColor" red="0.25472542605782833" green="0.84677471699324469" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="CYq-hx-OWF"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="Xbt-CQ-P0k"/>
@@ -43,7 +41,6 @@
                     </label>
                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="82n-xq-VcS">
                         <rect key="frame" x="65" y="35" width="50" height="25"/>
-                        <color key="backgroundColor" red="0.33509615781446944" green="0.33222062798258178" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="25" id="W5N-PB-l0P"/>
                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="50" id="oMj-9M-d7d"/>
@@ -62,7 +59,7 @@
                         <nil key="highlightedColor"/>
                     </label>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="o7S-ZQ-Sls">
-                        <rect key="frame" x="10" y="125.5" width="328" height="50"/>
+                        <rect key="frame" x="10" y="125" width="328" height="50"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最热评论" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LbU-Ye-1k0">
                                 <rect key="frame" x="0.0" y="0.0" width="60" height="21"/>
@@ -81,7 +78,6 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.26385031354237531" green="0.28166894179791113" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="LbU-Ye-1k0" firstAttribute="leading" secondItem="o7S-ZQ-Sls" secondAttribute="leading" id="15f-uR-adL"/>
                             <constraint firstAttribute="trailing" secondItem="CjN-Sw-SBQ" secondAttribute="trailing" id="BzV-oR-C9a"/>
@@ -94,9 +90,50 @@
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DwH-tJ-oAv">
                         <rect key="frame" x="10" y="180.5" width="328" height="44"/>
-                        <color key="backgroundColor" red="1" green="0.36206398703819032" blue="0.50688117430716229" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-YA-K05">
+                                <rect key="frame" x="0.0" y="0.0" width="82" height="44"/>
+                                <state key="normal" image="mainCellCai_20x20_">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDg-aa-VM7">
+                                <rect key="frame" x="82" y="0.0" width="82" height="44"/>
+                                <state key="normal" image="mainCellCai_20x20_">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhk-Lm-w0f">
+                                <rect key="frame" x="164" y="0.0" width="82" height="44"/>
+                                <state key="normal" image="mainCellShare_20x20_">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjH-fT-6ot">
+                                <rect key="frame" x="246" y="0.0" width="82" height="44"/>
+                                <state key="normal" image="mainCellComment_20x20_">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <constraints>
+                            <constraint firstAttribute="bottom" secondItem="jhk-Lm-w0f" secondAttribute="bottom" id="0fp-8U-n0p"/>
+                            <constraint firstAttribute="bottom" secondItem="rbt-YA-K05" secondAttribute="bottom" id="2ch-Ui-ue7"/>
+                            <constraint firstItem="rbt-YA-K05" firstAttribute="leading" secondItem="DwH-tJ-oAv" secondAttribute="leading" id="3d1-Yv-sYL"/>
+                            <constraint firstAttribute="bottom" secondItem="gDg-aa-VM7" secondAttribute="bottom" id="6mM-iZ-tP4"/>
+                            <constraint firstItem="jhk-Lm-w0f" firstAttribute="top" secondItem="DwH-tJ-oAv" secondAttribute="top" id="NTY-Gj-fP4"/>
+                            <constraint firstAttribute="bottom" secondItem="GjH-fT-6ot" secondAttribute="bottom" id="PF3-xY-f5h"/>
+                            <constraint firstItem="rbt-YA-K05" firstAttribute="top" secondItem="DwH-tJ-oAv" secondAttribute="top" id="TCg-Pd-8w5"/>
+                            <constraint firstItem="gDg-aa-VM7" firstAttribute="top" secondItem="DwH-tJ-oAv" secondAttribute="top" id="fKa-NR-fEX"/>
+                            <constraint firstItem="GjH-fT-6ot" firstAttribute="leading" secondItem="jhk-Lm-w0f" secondAttribute="trailing" id="hrI-G3-bWd"/>
+                            <constraint firstItem="jhk-Lm-w0f" firstAttribute="width" secondItem="rbt-YA-K05" secondAttribute="width" id="iRj-o9-ttK"/>
+                            <constraint firstItem="GjH-fT-6ot" firstAttribute="top" secondItem="DwH-tJ-oAv" secondAttribute="top" id="jSw-uD-tRK"/>
+                            <constraint firstItem="gDg-aa-VM7" firstAttribute="leading" secondItem="rbt-YA-K05" secondAttribute="trailing" id="nEC-KD-5ko"/>
+                            <constraint firstItem="jhk-Lm-w0f" firstAttribute="leading" secondItem="gDg-aa-VM7" secondAttribute="trailing" id="nvg-qJ-1mW"/>
+                            <constraint firstItem="GjH-fT-6ot" firstAttribute="width" secondItem="rbt-YA-K05" secondAttribute="width" id="oyX-p5-7FX"/>
+                            <constraint firstItem="gDg-aa-VM7" firstAttribute="width" secondItem="rbt-YA-K05" secondAttribute="width" id="pXk-Wg-Yx4"/>
                             <constraint firstAttribute="height" constant="44" id="rsB-Va-lda"/>
+                            <constraint firstAttribute="trailing" secondItem="GjH-fT-6ot" secondAttribute="trailing" id="uRK-RV-oD9"/>
                         </constraints>
                     </view>
                 </subviews>
@@ -129,11 +166,15 @@
                 </variation>
             </tableViewCellContentView>
             <connections>
+                <outlet property="caiButton" destination="gDg-aa-VM7" id="7Rc-7e-HOR"/>
+                <outlet property="commentButton" destination="GjH-fT-6ot" id="u7P-ak-K1k"/>
                 <outlet property="commentLabel" destination="CjN-Sw-SBQ" id="fOg-bB-meW"/>
                 <outlet property="commentView" destination="o7S-ZQ-Sls" id="ohA-63-9aS"/>
                 <outlet property="contentLabel" destination="v9Q-JE-rnm" id="pZ1-Y8-hoh"/>
+                <outlet property="dingButton" destination="rbt-YA-K05" id="rkH-ke-99j"/>
                 <outlet property="iconImageView" destination="GEZ-js-YYo" id="B41-za-Kdk"/>
                 <outlet property="nameLabel" destination="lcF-KR-Ich" id="lrr-Bv-ZSr"/>
+                <outlet property="shareButton" destination="jhk-Lm-w0f" id="wL7-Px-Bce"/>
                 <outlet property="timeLabel" destination="82n-xq-VcS" id="v8Z-HI-Rpk"/>
             </connections>
             <point key="canvasLocation" x="293" y="167"/>
@@ -141,5 +182,8 @@
     </objects>
     <resources>
         <image name="friendsRecommentIcon_19x18_@1x" width="19" height="18"/>
+        <image name="mainCellCai_20x20_" width="20" height="20"/>
+        <image name="mainCellComment_20x20_" width="20" height="20"/>
+        <image name="mainCellShare_20x20_" width="20" height="20"/>
     </resources>
 </document>

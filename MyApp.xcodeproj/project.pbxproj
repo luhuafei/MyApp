@@ -46,6 +46,13 @@
 		25EB511B1D1D0C5A00E328FF /* TopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB51141D1D0C5A00E328FF /* TopicVoiceView.xib */; };
 		25EB511C1D1D0C5A00E328FF /* TopicVideo.m in Sources */ = {isa = PBXBuildFile; fileRef = 25EB51161D1D0C5A00E328FF /* TopicVideo.m */; };
 		25EB511D1D1D0C5A00E328FF /* TopicVideo.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25EB51171D1D0C5A00E328FF /* TopicVideo.xib */; };
+		25F9ED811D532BCA00F91E4C /* CommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F9ED7F1D532BCA00F91E4C /* CommentViewController.m */; };
+		25F9ED821D532BCA00F91E4C /* CommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F9ED801D532BCA00F91E4C /* CommentViewController.xib */; };
+		25F9ED8B1D532BF000F91E4C /* CommendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F9ED871D532BF000F91E4C /* CommendCell.m */; };
+		25F9ED8C1D532BF000F91E4C /* CommendCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F9ED881D532BF000F91E4C /* CommendCell.xib */; };
+		25F9ED901D532F3D00F91E4C /* ShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25F9ED8E1D532F3D00F91E4C /* ShowPictureViewController.m */; };
+		25F9ED911D532F3D00F91E4C /* ShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F9ED8F1D532F3D00F91E4C /* ShowPictureViewController.xib */; };
+		25F9ED931D533AA900F91E4C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25F9ED921D533AA900F91E4C /* AVFoundation.framework */; };
 		55F202208DF95D759486640A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F93A56B374D4B9541B3D215 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +150,16 @@
 		25EB51151D1D0C5A00E328FF /* TopicVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicVideo.h; sourceTree = "<group>"; };
 		25EB51161D1D0C5A00E328FF /* TopicVideo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicVideo.m; sourceTree = "<group>"; };
 		25EB51171D1D0C5A00E328FF /* TopicVideo.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TopicVideo.xib; sourceTree = "<group>"; };
+		25F9ED7E1D532BCA00F91E4C /* CommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentViewController.h; sourceTree = "<group>"; };
+		25F9ED7F1D532BCA00F91E4C /* CommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentViewController.m; sourceTree = "<group>"; };
+		25F9ED801D532BCA00F91E4C /* CommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommentViewController.xib; sourceTree = "<group>"; };
+		25F9ED861D532BF000F91E4C /* CommendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommendCell.h; sourceTree = "<group>"; };
+		25F9ED871D532BF000F91E4C /* CommendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommendCell.m; sourceTree = "<group>"; };
+		25F9ED881D532BF000F91E4C /* CommendCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommendCell.xib; sourceTree = "<group>"; };
+		25F9ED8D1D532F3D00F91E4C /* ShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPictureViewController.h; sourceTree = "<group>"; };
+		25F9ED8E1D532F3D00F91E4C /* ShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPictureViewController.m; sourceTree = "<group>"; };
+		25F9ED8F1D532F3D00F91E4C /* ShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPictureViewController.xib; sourceTree = "<group>"; };
+		25F9ED921D533AA900F91E4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		9F93A56B374D4B9541B3D215 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D2AED2A7273C537843CB3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +169,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F9ED931D533AA900F91E4C /* AVFoundation.framework in Frameworks */,
 				55F202208DF95D759486640A /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -176,6 +194,7 @@
 		0CDEAF447A45C2F1ACB1F3A5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				25F9ED921D533AA900F91E4C /* AVFoundation.framework */,
 				9F93A56B374D4B9541B3D215 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -323,6 +342,12 @@
 				25DA3EEB1D1BBEFD0066A79E /* PictureTableViewController.m */,
 				25DA3EED1D1BBF0B0066A79E /* WordTableViewController.h */,
 				25DA3EEE1D1BBF0B0066A79E /* WordTableViewController.m */,
+				25F9ED7E1D532BCA00F91E4C /* CommentViewController.h */,
+				25F9ED7F1D532BCA00F91E4C /* CommentViewController.m */,
+				25F9ED801D532BCA00F91E4C /* CommentViewController.xib */,
+				25F9ED8D1D532F3D00F91E4C /* ShowPictureViewController.h */,
+				25F9ED8E1D532F3D00F91E4C /* ShowPictureViewController.m */,
+				25F9ED8F1D532F3D00F91E4C /* ShowPictureViewController.xib */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -492,6 +517,9 @@
 				25EB51091D1D0C4500E328FF /* TopicsCell.h */,
 				25EB510A1D1D0C4500E328FF /* TopicsCell.m */,
 				25EB510B1D1D0C4500E328FF /* TopicsCell.xib */,
+				25F9ED861D532BF000F91E4C /* CommendCell.h */,
+				25F9ED871D532BF000F91E4C /* CommendCell.m */,
+				25F9ED881D532BF000F91E4C /* CommendCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -627,7 +655,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F9ED821D532BCA00F91E4C /* CommentViewController.xib in Resources */,
 				25EA6F4B1CF7EDE3004C1FF1 /* LaunchScreen.storyboard in Resources */,
+				25F9ED8C1D532BF000F91E4C /* CommendCell.xib in Resources */,
 				25EB511B1D1D0C5A00E328FF /* TopicVoiceView.xib in Resources */,
 				25EB510E1D1D0C4500E328FF /* TopicsCell.xib in Resources */,
 				25BEBB051D07FBE000057295 /* Assets.xcassets in Resources */,
@@ -635,6 +665,7 @@
 				25EB511D1D1D0C5A00E328FF /* TopicVideo.xib in Resources */,
 				25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */,
 				25EA6F461CF7EDE3004C1FF1 /* Main.storyboard in Resources */,
+				25F9ED911D532F3D00F91E4C /* ShowPictureViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -718,12 +749,14 @@
 				25DA3EE91D1BBEEB0066A79E /* SoundTableViewController.m in Sources */,
 				25EB51181D1D0C5A00E328FF /* PicView.m in Sources */,
 				25C4AF871D333816008B6608 /* NSString+Extension.m in Sources */,
+				25F9ED8B1D532BF000F91E4C /* CommendCell.m in Sources */,
 				25EB510D1D1D0C4500E328FF /* TopicsCell.m in Sources */,
 				25DA3EF21D1BC1C60066A79E /* Const.m in Sources */,
 				25BEBB391D08022700057295 /* MeViewController.m in Sources */,
 				25DA3EE61D1BBED80066A79E /* VideoTableViewController.m in Sources */,
 				25EB511C1D1D0C5A00E328FF /* TopicVideo.m in Sources */,
 				25DA3EFA1D1BCE310066A79E /* WordModel.m in Sources */,
+				25F9ED901D532F3D00F91E4C /* ShowPictureViewController.m in Sources */,
 				25A843B31D2CAABF00374A8D /* UIButton+SSEdgeInsets.m in Sources */,
 				25EB511A1D1D0C5A00E328FF /* TopicVoiceView.m in Sources */,
 				25DA3F021D1BDB7A0066A79E /* User.m in Sources */,
@@ -731,6 +764,7 @@
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
 				25BEBB3C1D08025A00057295 /* NewViewController.m in Sources */,
 				25BEBB031D07FB7600057295 /* NavigationController.m in Sources */,
+				25F9ED811D532BCA00F91E4C /* CommentViewController.m in Sources */,
 				25DA3EE31D1BBEC30066A79E /* AllTableViewController.m in Sources */,
 				25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */,
 				25DA3EDD1D1BBD600066A79E /* UIBarButtonItem+Extension.m in Sources */,

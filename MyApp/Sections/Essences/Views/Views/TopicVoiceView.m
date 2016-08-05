@@ -9,7 +9,7 @@
 #import "TopicVoiceView.h"
 #import "WordModel.h"
 #import <UIImageView+WebCache.h>
-//#import "ShowPictureViewController.h"
+#import "ShowPictureViewController.h"
 @interface TopicVoiceView ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *voicelengthLabel;
@@ -34,9 +34,10 @@
 }
 - (void)tapAction
 {
-//    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
-//    showPic.model = self.topic;
-//    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
+    NSLog(@"我是 topicVoiceView");
+    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
+    showPic.model = self.topic;
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
 }
 -(void)setTopic:(WordModel *)topic
 {

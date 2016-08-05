@@ -24,6 +24,17 @@
 @property (weak, nonatomic) IBOutlet UIView *commentView;
 @property (weak, nonatomic) IBOutlet UILabel *commentLabel;
 
+//顶
+@property (weak, nonatomic) IBOutlet UIButton *dingButton;
+//踩
+@property (weak, nonatomic) IBOutlet UIButton *caiButton;
+//分享
+@property (weak, nonatomic) IBOutlet UIButton *shareButton;
+//评论
+@property (weak, nonatomic) IBOutlet UIButton *commentButton;
+
+
+
 /**图片帖子中间的内容 */
 @property (nonatomic,strong)PicView * pictureView;
 
@@ -81,6 +92,16 @@
     self.nameLabel.text = _topic.name;
     self.timeLabel.text = _topic.create_time;
     self.contentLabel.text = _topic.text;
+    //设置按钮文字
+    [self setupButtonTitle:self.dingButton count:topic.ding placeholder:@"顶"];
+    [self setupButtonTitle:self.caiButton count:topic.cai placeholder:@"踩"];
+    [self setupButtonTitle:self.shareButton count:topic.repost placeholder:@"分享"];
+    [self setupButtonTitle:self.commentButton count:topic.comment placeholder:@"评论"];
+    
+    
+    
+    
+    
     //根据帖子类型 添加对应的内容到cell中间
     if ([topic.type isEqualToString:@"10"]) {//图片帖子
         self.pictureView.hidden = NO;
@@ -88,21 +109,18 @@
         self.voiceView.hidden = YES;
         self.pictureView.topic = topic;
         self.pictureView.frame = topic.pictureF;
-        NSLog(@"pictureF == %@", NSStringFromCGRect(topic.pictureF));
     }else if ([topic.type isEqualToString:@"31"]){//声音帖子
         self.videoView.hidden = YES;
         self.pictureView.hidden = YES;
         self.voiceView.hidden = NO;
         self.voiceView.topic = topic;
         self.voiceView.frame = topic.voiceF;
-        NSLog(@"VOICE == %@", NSStringFromCGRect(topic.voiceF));
     }else if ([topic.type isEqualToString:@"41"]){//视频帖子
         self.pictureView.hidden = YES;
         self.voiceView.hidden = YES;
         self.videoView.hidden = NO;
         self.videoView.topic = topic;
         self.videoView.frame = topic.videoF;
-        NSLog(@"videoF == %@", NSStringFromCGRect(topic.videoF));
         
     }else{
         //段子帖子
@@ -129,5 +147,14 @@
     frame.origin.y += TopicCellMargin;
     [super setFrame:frame];
 }
-
+//设置底部按钮文字
+- (void)setupButtonTitle:(UIButton *)button count:(NSInteger)count placeholder:(NSString * )placeholder
+{
+    if (count>10000) {
+        placeholder = [NSString stringWithFormat:@"%.1f万",count/10000.0];
+    }else{
+        placeholder = [NSString stringWithFormat:@"%zd",count];
+    }
+    [button setTitle:placeholder forState:UIControlStateNormal];
+}
 @end

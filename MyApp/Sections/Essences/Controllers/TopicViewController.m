@@ -12,6 +12,7 @@
 #import "TopicsCell.h"
 #import "WordModel.h"
 #import <MJExtension.h>
+#import "CommentViewController.h"
 @interface TopicViewController ()
 /**帖子数据 */
 @property (nonatomic,strong)NSMutableArray * topics;
@@ -148,16 +149,29 @@ static NSString *const BaseUrl = @"https://api.budejie.com/api/api_open.php";
 {
     self.page ++;
     
+    self.parms = [self requstParamete];
+    
     [HttpManager GetUrlString:BaseUrl WithParameters:self.parms success:^(id responseObject)
      {
-         NSLog(@"responseObject = %@", responseObject);
+        
+         //存储maxtime
+         self.maxtime = responseObject[@"info"][@"maxtime"];
+         //字典转模型
+         NSArray * newTopics = [WordModel mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+         [self.topics addObjectsFromArray:newTopics];
+         //刷新表格
+         [self.tableView reloadData];
+         //结束刷新
+         [self.tableView.mj_footer endRefreshing];
      } failure:^(NSError *error)
      {
-         NSLog(@"error == %@", error);
+         //结束刷新
+         [self.tableView.mj_footer endRefreshing];
+         //恢复页码
+         self.page --;
      }];
     
-    //结束刷新
-    [self.tableView.mj_footer endRefreshing];
+  
     
 }
 #pragma mark - UITableViewDataSource & UITableViewDelegate
@@ -179,5 +193,12 @@ static NSString *const BaseUrl = @"https://api.budejie.com/api/api_open.php";
 {
     WordModel *topics = self.topics[indexPath.row];
     return topics.cellHeight;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(nonnull NSIndexPath *)indexPath
+{
+    CommentViewController * commentVc = [[CommentViewController alloc]init];
+    commentVc.topic = self.topics[indexPath.row];
+    [self.navigationController pushViewController:commentVc animated:YES];
 }
 @end

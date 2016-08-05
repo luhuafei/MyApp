@@ -65,6 +65,8 @@
 //视频控件的frame
 @property (nonatomic,assign,readonly)CGRect videoF;
 
+//声音播放
+@property (copy, nonatomic)NSString *voiceuri;
 
 //额外的辅助属性
 

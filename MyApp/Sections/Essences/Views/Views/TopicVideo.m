@@ -8,7 +8,7 @@
 #import "WordModel.h"
 #import <UIImageView+WebCache.h>
 #import "TopicVideo.h"
-//#import "ShowPictureViewController.h"
+#import "ShowPictureViewController.h"
 @interface TopicVideo ()
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet UILabel *videoTimeLabel;
@@ -33,9 +33,10 @@
 }
 - (void)tapAction
 {
-//    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
-//    showPic.model = self.topic;
-//    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
+    NSLog(@"我是 TopicVideo");
+    ShowPictureViewController * showPic = [[ShowPictureViewController alloc]init];
+    showPic.model = self.topic;
+    [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:showPic animated:YES completion:nil];
 }
 -(void)setTopic:(WordModel *)topic
 {

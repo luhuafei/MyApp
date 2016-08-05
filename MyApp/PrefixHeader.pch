@@ -32,7 +32,9 @@
 
 //扩展
 #import "UIView+Extension.h"
-
+#import "UIBarButtonItem+Extension.h"
+/** 日期*/
+#import "NSDate+Extension.h"
 /** 常量*/
 #import "Const.h"
 
@@ -42,12 +44,13 @@
 #define GlobalBg RGBColor(223, 223, 223)
 
 
-/** 日期*/
-#import "NSDate+Extension.h"
+
 
 /** 执行时间*/
 #define TICK   NSDate *startTime = [NSDate date]
 
 #define TOCK   NSLog(@"Time: %f", -[startTime timeIntervalSinceNow])
 
+#define kWindowWidth ([UIScreen mainScreen].bounds.size.width)
+#define kWindowHeight ([UIScreen mainScreen].bounds.size.height)
 #endif /* PrefixHeader_pch */
