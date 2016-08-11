@@ -157,4 +157,16 @@
     }
     [button setTitle:placeholder forState:UIControlStateNormal];
 }
+- (IBAction)dingButtonAction:(UIButton *)sender
+{
+    [sender setImage:[UIImage imageNamed:@"mainCellDingClick_20x20_"] forState:UIControlStateNormal];
+}
+- (IBAction)caiButtonAction:(UIButton *)sender
+{
+    [sender setImage:[UIImage imageNamed:@"mainCellCaiClick_20x20_"] forState:UIControlStateNormal];
+}
+- (IBAction)shareButtonAction:(UIButton *)sender {
+}
+- (IBAction)commentButtonAction:(UIButton *)sender {
+}
 @end

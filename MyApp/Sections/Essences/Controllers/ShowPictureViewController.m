@@ -16,7 +16,7 @@
 @property (weak, nonatomic) IBOutlet UIScrollView *scrollView;
 @property (weak, nonatomic) IBOutlet DALabeledCircularProgressView *progressView;
 
-@property (strong, nonatomic) AVAudioPlayer *player;
+@property (strong, nonatomic) AVPlayer *player;
 
 @end
 
@@ -62,25 +62,15 @@
     }];
     if ([self.model.type isEqualToString:@"31"])
     {
-        NSString *urlStr = self.model.voiceuri;
-        NSURL *url = [[NSURL alloc]initWithString:urlStr];
-        NSData * audioData = [NSData dataWithContentsOfURL:url];
-        
-        //将数据保存到本地指定位置
-        NSString *docDirPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
-        NSString *filePath = [NSString stringWithFormat:@"%@/%@.mp3", docDirPath , @"temp"];
-        [audioData writeToFile:filePath atomically:YES];
-        self.player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL URLWithString:filePath] error:nil];
-        [self.player prepareToPlay];
+        self.player = [AVPlayer playerWithURL:[NSURL URLWithString:self.model.voiceuri]];
         [self.player play];
-
     }
     
     
 }
 - (IBAction)back
 {
-    [self.player stop];
+    [self.player pause];
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 - (IBAction)save:(id)sender {

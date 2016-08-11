@@ -93,27 +93,40 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rbt-YA-K05">
                                 <rect key="frame" x="0.0" y="0.0" width="82" height="44"/>
-                                <state key="normal" image="mainCellCai_20x20_">
+                                <state key="normal" image="mainCellDing_20x20_">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDg-aa-VM7">
-                                <rect key="frame" x="82" y="0.0" width="82" height="44"/>
-                                <state key="normal" image="mainCellCai_20x20_">
-                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
-                                </state>
+                                <state key="highlighted" image=" "/>
+                                <connections>
+                                    <action selector="dingButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="9Hf-6f-9dG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jhk-Lm-w0f">
                                 <rect key="frame" x="164" y="0.0" width="82" height="44"/>
                                 <state key="normal" image="mainCellShare_20x20_">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="shareButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FHI-yM-vH1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GjH-fT-6ot">
                                 <rect key="frame" x="246" y="0.0" width="82" height="44"/>
                                 <state key="normal" image="mainCellComment_20x20_">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="commentButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="ZEK-8B-rcq"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDg-aa-VM7">
+                                <rect key="frame" x="82" y="0.0" width="82" height="44"/>
+                                <state key="normal" image="mainCellCai_20x20_">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="caiButtonAction:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="4xR-3J-Zv3"/>
+                                </connections>
                             </button>
                         </subviews>
                         <constraints>
@@ -181,9 +194,11 @@
         </tableViewCell>
     </objects>
     <resources>
+        <image name=" " width="19" height="18"/>
         <image name="friendsRecommentIcon_19x18_@1x" width="19" height="18"/>
         <image name="mainCellCai_20x20_" width="20" height="20"/>
         <image name="mainCellComment_20x20_" width="20" height="20"/>
+        <image name="mainCellDing_20x20_" width="20" height="20"/>
         <image name="mainCellShare_20x20_" width="20" height="20"/>
     </resources>
 </document>
