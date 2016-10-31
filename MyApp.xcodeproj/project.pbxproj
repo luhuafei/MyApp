@@ -20,6 +20,7 @@
 		25BEBB451D08036500057295 /* FriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB431D08036500057295 /* FriendTrendViewController.m */; };
 		25BEBB461D08036500057295 /* FriendTrendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25BEBB441D08036500057295 /* FriendTrendViewController.xib */; };
 		25BEBB491D08084B00057295 /* TopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BEBB481D08084B00057295 /* TopicViewController.m */; };
+		25BF46381DB0D55300EBF3D9 /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BF46371DB0D55300EBF3D9 /* NSObject+runtime.m */; };
 		25C4AF871D333816008B6608 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25C4AF861D333816008B6608 /* NSString+Extension.m */; };
 		25DA3EDA1D1BBBC40066A79E /* AlertTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3ED91D1BBBC40066A79E /* AlertTool.m */; };
 		25DA3EDD1D1BBD600066A79E /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DA3EDC1D1BBD600066A79E /* UIBarButtonItem+Extension.m */; };
@@ -99,6 +100,8 @@
 		25BEBB441D08036500057295 /* FriendTrendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendTrendViewController.xib; sourceTree = "<group>"; };
 		25BEBB471D08084B00057295 /* TopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicViewController.h; sourceTree = "<group>"; };
 		25BEBB481D08084B00057295 /* TopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicViewController.m; sourceTree = "<group>"; };
+		25BF46361DB0D55300EBF3D9 /* NSObject+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		25BF46371DB0D55300EBF3D9 /* NSObject+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
 		25C4AF851D333816008B6608 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
 		25C4AF861D333816008B6608 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		25D0EAC71D24BE570059793C /* Inline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Inline.h; sourceTree = "<group>"; };
@@ -160,6 +163,7 @@
 		25F9ED8E1D532F3D00F91E4C /* ShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPictureViewController.m; sourceTree = "<group>"; };
 		25F9ED8F1D532F3D00F91E4C /* ShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPictureViewController.xib; sourceTree = "<group>"; };
 		25F9ED921D533AA900F91E4C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		25FBA5651DC716BA005EA1FC /* MySingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MySingleton.h; sourceTree = "<group>"; };
 		9F93A56B374D4B9541B3D215 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D2AED2A7273C537843CB3B /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -223,6 +227,7 @@
 		25BEBAF91D07FACE00057295 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				25FBA5641DC71695005EA1FC /* Function */,
 				25BEBB091D07FED000057295 /* Extension */,
 				25BEBB0C1D07FED000057295 /* Tools */,
 			);
@@ -270,6 +275,8 @@
 				25A843B21D2CAABF00374A8D /* UIButton+SSEdgeInsets.m */,
 				25C4AF851D333816008B6608 /* NSString+Extension.h */,
 				25C4AF861D333816008B6608 /* NSString+Extension.m */,
+				25BF46361DB0D55300EBF3D9 /* NSObject+runtime.h */,
+				25BF46371DB0D55300EBF3D9 /* NSObject+runtime.m */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -540,6 +547,14 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		25FBA5641DC71695005EA1FC /* Function */ = {
+			isa = PBXGroup;
+			children = (
+				25FBA5651DC716BA005EA1FC /* MySingleton.h */,
+			);
+			path = Function;
+			sourceTree = "<group>";
+		};
 		E0BB7EA772A2257CC92207EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -764,6 +779,7 @@
 				25EA6F3D1CF7EDE3004C1FF1 /* main.m in Sources */,
 				25BEBB3C1D08025A00057295 /* NewViewController.m in Sources */,
 				25BEBB031D07FB7600057295 /* NavigationController.m in Sources */,
+				25BF46381DB0D55300EBF3D9 /* NSObject+runtime.m in Sources */,
 				25F9ED811D532BCA00F91E4C /* CommentViewController.m in Sources */,
 				25DA3EE31D1BBEC30066A79E /* AllTableViewController.m in Sources */,
 				25BEBAFF1D07FACE00057295 /* AppDelegate.m in Sources */,
